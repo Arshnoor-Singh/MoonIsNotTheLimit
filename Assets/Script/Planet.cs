@@ -5,8 +5,11 @@ using UnityEngine;
 public class Planet : MonoBehaviour
 {
 
-    [SerializeField] private float gravity = 9.8f;
-    public float GetGravity() => gravity;
+    [SerializeField] private float planetGravity = 9.8f;
+    public float GetPlanetGravity() => planetGravity;
+    
+    [SerializeField] private float planetMass = 1000000f;
+    public float GetPlanetMass() => planetMass;
 
 
     public Vector3 GetPlanetPosition()
