@@ -15,4 +15,9 @@ public class Orbit : MonoBehaviour
     {
         
     }
+
+    void InitialVelocity()
+    {
+        
+    }
 }
